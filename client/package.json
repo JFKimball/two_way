@@ -1,0 +1,47 @@
+{
+  "name": "twoway-client",
+  "version": "1.0.0",
+  "description": "Web App Client for TwoWay peer-peer Voice and Audio Calling application",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JFKimball/two_way.git"
+  },
+  "keywords": [
+    "Peer-Peer",
+    "Voice",
+    "Calling"
+  ],
+  "author": "Jared Kimball",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JFKimball/two_way/issues"
+  },
+  "homepage": "https://github.com/JFKimball/two_way#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-jquery": "^2.0.0",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.5.1",
+    "mocha": "^4.1.0",
+    "react-addons-test-utils": "^15.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  },
+  "dependencies": {
+    "babel-preset-stage-3": "^6.24.1",
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2"
+  }
+}
