@@ -1,0 +1,27 @@
+{
+  "name": "two_way",
+  "version": "1.0.0",
+  "description": "TwoWay is a skype-like interface that allows for peer-peer video and audio calling.",
+  "main": "server/src/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JFKimball/two_way.git"
+  },
+  "keywords": [
+    "Video",
+    "Calling",
+    "Audio",
+    "Calling",
+    "Peer-Peer",
+    "Calling"
+  ],
+  "author": "Jared Kimball",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JFKimball/two_way/issues"
+  },
+  "homepage": "https://github.com/JFKimball/two_way#readme"
+}
